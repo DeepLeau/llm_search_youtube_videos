@@ -1,5 +1,6 @@
-
 # VidSearch
+
+![Banner](documents/vidsearch.PNG)
 
 VidSearch is a web application that allows you to perform smart searches within a video database using semantic similarity powered by OpenAI embeddings.
 
