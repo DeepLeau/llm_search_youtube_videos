@@ -2,7 +2,6 @@ import os
 import numpy as np
 import openai
 from dotenv import load_dotenv
-import pandas as pd
 
 load_dotenv()
 
@@ -23,7 +22,7 @@ def get_videos(df, query, number_of_rows=10):
     response = client.embeddings.create(
     model="text-embedding-ada-002",
     input=query)
-    
+
     embedding = response.data[0].embedding
 
     video_vectors["similarity"] = video_vectors["ada_v2"].apply(
