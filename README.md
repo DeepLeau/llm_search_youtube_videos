@@ -1,4 +1,4 @@
-# VidSearch
+# AI-Powered Web Search Tailored for YouTube Videos
 
 ![Banner](documents/vidsearch.PNG)
 
@@ -23,7 +23,7 @@ VidSearch is a web application that allows you to perform smart searches within 
 1. Clone this repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DeepLeau/llm_search_youtube_videos
 cd vidsearch
 ```
 
@@ -66,7 +66,8 @@ Then navigate to `http://localhost:8000`.
 │   └── dataset.json       # Video data and embeddings
 ├── server.py              # Flask backend server
 ├── utils.py               # Utility functions (embedding & similarity)
-├── index.html             # Static frontend
+├── frontend/
+│   └── index.html         # Static frontend
 ├── .env                   # Environment variables (OpenAI key)
 ```
 
