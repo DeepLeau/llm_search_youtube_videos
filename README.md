@@ -1,4 +1,4 @@
-# VidSearch
+# AI-Powered Web Search Tailored for YouTube Videos
 
 ![Banner](documents/vidsearch.PNG)
 
